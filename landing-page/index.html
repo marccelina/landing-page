@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Grass Studio</title>
+    <meta name="description" content="Outdoor Photography"/>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marcelina Choszcz">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/Lightbox.js"> </script>
+    <script src="js/DropDown.js"> </script>
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <div class="menu">
+                <h1>Grass Studio</h1>
+                <nav class ="menu__items">
+                    <ul>
+                        <li id="1" onmouseenter="showDropdown(this)" onmouseleave="closeDropdown(this)">
+                            <a href="#" >About</a>
+                            <div id="menu__dropdown--1" class="menu__dropdown">
+                                <a href="#">Team</a>
+                                <a href="#">Idea</a>
+                                <a href="#">Mission</a>
+                                <a href="#">Support</a>
+                            </div>
+                        </li>
+                        <li><a href="#">Trips</a></li>
+                        <li id="2" onmouseenter="showDropdown(this)" onmouseleave="closeDropdown(this)">
+                            <a href="#">Gallery</a>
+                            <div id="menu__dropdown--2"  class="menu__dropdown">
+                                <a href="#">Iceland</a>
+                                <a href="#">Norway</a>
+                                <a href="#">Arctica</a>
+                                <a href="#">Alaska</a>
+                            </div>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="introduction">
+        <div class="container">
+            <div class="introduction__content">
+                <h1> Outdoor Photography is a Journey </h1>
+                <div class="introduction__content--text">
+                    <p>
+                        We spent three months exploring Icalnd
+                    </p>
+                    <div class ="introduction__content--button button">
+                        <button><a href="#">Check it</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="two-column-section__title title">
+                <h2>Section title</h2>
+            </div>
+            <div class="two-column-section__text">
+                <p>Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus.</p>
+                <p>Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-with-image">
+        <div class="container">
+            <div class="section-with-image__title title">
+                <h2>Another title</h2>
+            </div>
+            <div>
+                <img class="section-with-image__image" src="./assets/image2.png" alt="Road" onclick="openLightbox(10)">
+                <p>Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus.</p>
+                <p> Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus.  Nulla facilisi. Duis aliquet egestas </p>
+                <p> purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus.</p>
+                <p> Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus. Nulla facilisi. </p>
+                <p>Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus ornare ante. Ac egestas est urna sit amet arcu. consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate , ligula lacinia celerisque tempor, lacus lacus.</p>
+                <div class ="section-with-image__button button">
+                    <button><a href="#">Read more</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery-section">
+        <div class="container gallery-section__container">
+            <img src="./assets/image3.jpg" alt="Bridge" onclick="openLightbox(1)">
+            <img src="./assets/image4.jpg" alt="Norwegian house" onclick="openLightbox(2)">
+            <img src="./assets/image5.jpg" alt="Horses" onclick="openLightbox(3)">
+            <img src="./assets/image6.jpg" alt="Car on mountain road" onclick="openLightbox(4)">
+            <img src="./assets/image7.png" alt="Horses" onclick="openLightbox(5)">
+            <img src="./assets/image8.jpg" alt="Houses" onclick="openLightbox(6)">
+            <img src="./assets/image9.jpg" alt="Mountain" onclick="openLightbox(7)">
+            <img src="./assets/image10.jpg" alt="Bird" onclick="openLightbox(8)">
+            <img src="./assets/image11.jpg" alt="Mountains" onclick="openLightbox(9)">
+        </div>
+    </section>
+    <section>
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox__close" onclick="closeLightbox()">&#215;</span>
+            <div class="lightbox__content">
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image3.jpg" alt="Bridge">
+                </div>
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image4.jpg" alt="Norwegian house">
+                </div>
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image5.jpg" alt="Horses">
+                </div>
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image6.jpg" alt="Car on mountain road">
+                </div>
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image7.png" alt="Horses">
+                </div>
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image8.jpg" alt="Houses">
+                </div>
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image9.jpg" alt="Mountain">
+                </div>
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image10.jpg" alt="Bird">
+                </div>
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image11.jpg" alt="Mountains">
+                </div>
+                <div class="lightbox__content--slides">
+                    <img src="./assets/image2.png" alt="Road">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>
+                All rights reserved Grass Studio
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+

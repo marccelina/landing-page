@@ -1,0 +1,27 @@
+.button {
+  text-align: center;
+  margin: 30px 0;
+
+  button {
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 10px 30px;
+    transition: 0.1s;
+    min-width: 200px;
+
+    &:hover {
+      transition: 0.1s;
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    a {
+      font-size: 24px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 800;
+      transition: 0.5s;
+    }
+  }
+}

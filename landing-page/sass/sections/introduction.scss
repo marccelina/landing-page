@@ -1,0 +1,52 @@
+.introduction {
+  background-image: url(../assets/image1.jpg);
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+  .container {
+    padding-top: 300px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+
+    @media only screen and (max-width: $extra-large){
+      display: block;
+    }
+  }
+  &__content {
+    grid-column-start: 2;
+
+    h1 {
+      color: $color--white;
+      margin-bottom: 0;
+    }
+    &--text {
+      display: flex;
+      @media only screen and (max-width: $extra-large) {
+        flex-direction: column;
+      }
+      p {
+        font-size: 21px;
+        color: $color--white;
+        font-weight: 600;
+        padding-right: 10px;
+        align-self: center;
+      }
+    }
+    &--button {
+      button {
+        border: 5px solid $color--white;
+        background: transparent;
+        a {
+          color: $color--white ;
+        }
+        &:hover {
+          border: 5px solid $color--gray;
+          a {
+            color: $color--gray;
+          }
+        }
+      }
+    }
+  }
+}
